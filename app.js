@@ -7,6 +7,7 @@ var apiRouter = require('./routes/api');
 var apiResponse = require('./helpers/response');
 var cors = require('cors');
 var app = express();
+var http = require("http");
 
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ limit: '50mb', extended: false }));
@@ -31,6 +32,13 @@ app.use((err, req, res) => {
 	}
 });
 
-app.listen(3000);
+var port = normalizePort(process.env.PORT || "3000");
+app.set("port", port);
+
+var server = http.createServer(app);
+
+server.listen(port);
+
+//app.listen(3000);
 
 module.exports = app;
