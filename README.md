@@ -2,6 +2,8 @@
 
 This project was generated with `ExpressJS`
 
+Databse used MongoDB
+
 ## Development server
 
 First need to download dependencies for run the project.
