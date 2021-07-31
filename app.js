@@ -32,10 +32,8 @@ app.use((err, req, res) => {
 	}
 });
 
-var port = normalizePort(process.env.PORT || "3000");
-app.set("port", port);
 
-var server = http.createServer(app);
+var server = http.createServer(process.env.PORT || 3000);
 
 server.listen(port);
 
