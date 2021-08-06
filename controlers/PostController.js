@@ -273,3 +273,198 @@ exports.allPost = [
     }
   },
 ];
+exports.getFlights = [
+  async function (req, res) {
+    try {
+      const data = [
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 2903.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 290.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 9903.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 293.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 203.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 393.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 353.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 555.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 8865.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 777.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 1000.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 5621.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 1000.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 8564.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 1111.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 7777.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 564.84,
+        },
+        {
+          AirlineLogoAddress:
+            "http://nmflightapi.azurewebsites.net/Images/AirlineLogo/CZ.gif",
+          AirlineName: "China Southern Airlines",
+          InboundFlightsDuration: "24:10",
+          ItineraryId: "",
+          OutboundFlightsDuration: "26:20",
+          Stops: 2,
+          TotalAmount: 785.84,
+        },
+      ];
+      return apiResponse.successResponseWithData(
+        res,
+        "Success",
+        data ? data : []
+      );
+    } catch (err) {
+      return apiResponse.ErrorResponse(res, err);
+    }
+  },
+];
